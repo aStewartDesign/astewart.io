@@ -1,0 +1,7 @@
+{% macro levelGroup(setLevel) %}
+<span class="c-skill-group__level">
+    {% for l in [1,2,3,4,5] %}
+        <i class="{{ utils.getLevelIcon(l, setLevel) }}"></i>
+    {% endfor %}
+</span>
+{% endmacro %}

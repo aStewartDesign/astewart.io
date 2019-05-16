@@ -1,0 +1,20 @@
+<li class="c-skill-group">
+    {{ skillGroup.name }}
+    <span class="c-skill-group__level">
+        {% for l in [1,2,3,4,5] %}
+            <i class="{{ utils.getLevelIcon(l, skillGroup.level) }}"></i>
+        {% endfor %}
+    </span>
+    <ul class="c-skill-group__sub-skills">
+    {% for skill in skillGroup.subSkills %}
+        <li class="c-skill-group__sub-skill-item">
+            {{ skill.name }}
+            <span class="c-skill-group__level">
+                {% for l in [1,2,3,4,5] %}
+                    <i class="{{ utils.getLevelIcon(l, skill.level) }}"></i>
+                {% endfor %}
+            </span>
+        </li>
+    {% endfor %}
+    </ul>
+</li>

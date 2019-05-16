@@ -1,0 +1,474 @@
+{
+    "experiences": [
+        {
+            "name": "Western Washington University",
+            "type": "education",
+            "role": "BA in design with an emphasis in design production",
+            "startDate": "2007-09-20",
+            "endDate": "2011-06-16",
+            "description": "",
+            "skills": [
+                "Typography",
+                "Web design",
+                "Advance design production",
+                "Book arts",
+                "Publication design",
+                "Technical writing"
+            ]
+        },
+        {
+            "name": "Puget Sound Energy",
+            "type": "client",
+            "role": "Freelance graphic designer",
+            "startDate": "2011-08-01",
+            "endDate": "2014-06-01",
+            "description": "As an independent contractor for Puget Sound Energy I created and produced graphics for print and web mediums. I set my own schedule and would quickly turn around assignments as they were sent to me.",
+            "skills": [
+                "Print and web design",
+                "Attention to detail",
+                "Working with a client",
+                "Adobe Creative Suite"
+            ]
+        },
+        {
+            "name": "Super Supplements",
+            "type": "client",
+            "role": "Freelance production artist",
+            "startDate": "2011-09-01",
+            "endDate": "2011-11-01",
+            "description": "Production work for super supplements...",
+            "skills": [
+                "Adobe Creative Suite",
+                "Working with a client",
+                "Attention to detail",
+                "Print and web design"
+            ]
+        },
+        {
+            "name": "Acupuncture Media Works",
+            "type": "job",
+            "role": "Senior Designer",
+            "startDate": "2011-11-01",
+            "endDate": "2013-10-01",
+            "description": "Worked for amw...",
+            "skills": [
+                "UI/UX design",
+                "Wordpress",
+                "Web applications",
+                "Print and web design",
+                "HTML/CSS",
+                "Javascript",
+                "PHP",
+                "jQuery",
+                "Project management"
+            ]
+        },
+        {
+            "name": "Pacific Software Publishing",
+            "type": "job",
+            "role": "Web Designer",
+            "startDate": "2013-11-01",
+            "endDate": "2014-12-01",
+            "description": "Worked for PSP...",
+            "skills": [
+                "UI/UX design",
+                "HTML/CSS",
+                "Javascript",
+                "jQuery",
+                "PHP",
+                "CakePHP",
+                "Working with a client",
+                "SVN"
+            ]
+        },
+        {
+            "name": "Dash Platform",
+            "type": "job",
+            "role": "Software Engineer & Designer",
+            "startDate": "2015-01-01",
+            "endDate": "2016-06-01",
+            "description": "Worked for Dash",
+            "skills": [
+                "UI/UX design",
+                "Javascript",
+                "jQuery",
+                "React/Redux",
+                "HTML/CSS",
+                "SASS",
+                "API integration",
+                "PHP",
+                "MySQL",
+                "Working with a team",
+                "Remote & in-office experience",
+                "Usability testing",
+                "Git"
+            ]
+        },
+        {
+            "name": "CommerceHub",
+            "type": "job",
+            "role": "Software Engineer",
+            "startDate": "2016-07-11",
+            "endDate": "2018-06-29",
+            "description": "I worked for CHUB...",
+            "skills": [
+                "React/Redux",
+                "LESS",
+                "HTML/CSS",
+                "API integration",
+                "C#/.NET",
+                "AWS",
+                "GoCD",
+                "Working with a team",
+                "Git",
+                "Remote & in-office experience",
+                "Javascript",
+                "NodeJS"
+            ]
+        },
+        {
+            "name": "Fellow",
+            "type": "client",
+            "role": "Front-End Developer & Design Systems Architect",
+            "startDate": "2018-07-02",
+            "endDate": "2019-02-25",
+            "description": "Lead an effort to build a design system...",
+            "skills": [
+                "Design system architecture",
+                "HTML/CSS",
+                "Javascript",
+                "SASS",
+                "Angular",
+                "API integration",
+                "Remote & in-office experience",
+                "Working with a client",
+                "Fractal",
+                "TFS",
+                "NodeJS"
+            ]
+        },
+        {
+            "name": "AWS Cloud Solutions Architect",
+            "type": "certification",
+            "role": "",
+            "startDate": "2019-03-18",
+            "endDate": "",
+            "description": "",
+            "skills": []
+        }
+    ],
+    "skills": {
+        "technical": [
+            {
+                "name": "HTML",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "Semantic HTML",
+                        "level": 4
+                    },
+                    {
+                        "name": "Accessible HTML",
+                        "level": 3
+                    },
+                    {
+                        "name": "Nunjucks",
+                        "level": 3
+                    },
+                    {
+                        "name": "Handlebars",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "name": "CSS",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "SASS",
+                        "level": 4
+                    },
+                    {
+                        "name": "LESS",
+                        "level": 3
+                    },
+                    {
+                        "name": "PostCSS",
+                        "level": 4
+                    },
+                    {
+                        "name": "Architecture principles",
+                        "level": 4
+                    }
+                ]
+            },
+            {
+                "name": "Javascript",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "NodeJS",
+                        "level": 4
+                    },
+                    {
+                        "name": "ECMAScript",
+                        "level": 4
+                    },
+                    {
+                        "name": "Babel",
+                        "level": 4
+                    },
+                    {
+                        "name": "React/Redux",
+                        "level": 4
+                    },
+                    {
+                        "name": "Angular",
+                        "level": 2
+                    },
+                    {
+                        "name": "Webpack",
+                        "level": 3
+                    },
+                    {
+                        "name": "TypeScript",
+                        "level": 3
+                    },
+                    {
+                        "name": "Gulp",
+                        "level": 3
+                    },
+                    {
+                        "name": "jQuery",
+                        "level": 2
+                    },
+                    {
+                        "name": "Jest",
+                        "level": 2
+                    },
+                    {
+                        "name": "Tape",
+                        "level": 2
+                    },
+                    {
+                        "name": "Enzyme",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "name": "Amazon Web Services",
+                "level": 3,
+                "subSkills": [
+                    {
+                        "name": "S3",
+                        "level": 4
+                    },
+                    {
+                        "name": "CloudFront",
+                        "level": 4
+                    },
+                    {
+                        "name": "API Gateway",
+                        "level": 2
+                    },
+                    {
+                        "name": "Lambda",
+                        "level": 3
+                    },
+                    {
+                        "name": "AWS CLI",
+                        "level": 3
+                    },
+                    {
+                        "name": "Serverless Framework",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "name": "Back-End Engineering",
+                "level": 2,
+                "subSkills": [
+                    {
+                        "name": "C#/.NET",
+                        "level": 2
+                    },
+                    {
+                        "name": "PHP",
+                        "level": 2
+                    },
+                    {
+                        "name": "CakePHP",
+                        "level": 2
+                    },
+                    {
+                        "name": "SQL",
+                        "level": 2
+                    },
+                    {
+                        "name": "MySQL",
+                        "level": 2
+                    },
+                    {
+                        "name": "Microsoft SQL Server",
+                        "level": 2
+                    },
+                    {
+                        "name": "Wordpress",
+                        "level": 2
+                    }
+                ]
+            },
+            {
+                "name": "Version Control",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "Git",
+                        "level": 4
+                    },
+                    {
+                        "name": "SVN",
+                        "level": 1
+                    },
+                    {
+                        "name": "TFS",
+                        "level": 2
+                    }
+                ]
+            }
+        ],
+        "design": [
+            {
+                "name": "Web UI/UX Design",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "Responsive, Mobile-First Design",
+                        "level": 4
+                    },
+                    {
+                        "name": "Web Typography",
+                        "level": 3
+                    },
+                    {
+                        "name": "Atomic Design",
+                        "level": 4
+                    },
+                    {
+                        "name": "Usability Testing",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "name": "Design Systems",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "System Architecture",
+                        "level": 4
+                    },
+                    {
+                        "name": "Fractal",
+                        "level": 4
+                    },
+                    {
+                        "name": "Pattern Lab",
+                        "level": 3
+                    },
+                    {
+                        "name": "System Maintenance",
+                        "level": 3
+                    }
+                ]
+            },
+            {
+                "name": "Adobe Creative Cloud",
+                "level": 4,
+                "subSkills": [
+                    {
+                        "name": "Illustrator",
+                        "level": 4
+                    },
+                    {
+                        "name": "Photoshop",
+                        "level": 4
+                    },
+                    {
+                        "name": "InDesign",
+                        "level": 3
+                    },
+                    {
+                        "name": "XD",
+                        "level": 3
+                    },
+                    {
+                        "name": "AfterEffects",
+                        "level": 3
+                    }
+                ]
+            }
+        ],
+        "soft": [
+            {
+                "name": "Adaptable",
+                "level": 5,
+                "subSkills": [
+                    {
+                        "name": "Can fill many roles",
+                        "level": 5
+                    },
+                    {
+                        "name": "Can work independently and with a team",
+                        "level": 5
+                    }
+                ]
+            },
+            {
+                "name": "Teamwork",
+                "level": 5,
+                "subSkills": [
+                    {
+                        "name": "Works effectively with others",
+                        "level": 5
+                    },
+                    {
+                        "name": "Engages in meetings",
+                        "level": 5
+                    }
+                ]
+            },
+            {
+                "name": "Leadership",
+                "level": 5,
+                "subSkills": [
+                    {
+                        "name": "Takes initiative",
+                        "level": 5
+                    },
+                    {
+                        "name": "Mentoring experience",
+                        "level": 5
+                    }
+                ]
+            },
+            {
+                "name": "Communication",
+                "level": 5,
+                "subSkills": [
+                    {
+                        "name": "Excellent writing skills",
+                        "level": 5
+                    },
+                    {
+                        "name": "Presenting experience",
+                        "level": 5
+                    }
+                ]
+            }
+        ]
+    }
+}

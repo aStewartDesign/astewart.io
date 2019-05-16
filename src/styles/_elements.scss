@@ -1,0 +1,36 @@
+
+html {
+
+    /*
+     * VARIABLES
+     */
+
+     // Fonts
+    --font-quicksand: 'Quicksand', sans-serif;
+    --font-teko: 'Teko', sans-serif;
+    --font-comfortaa: 'Comfortaa', cursive;
+    --font-saira: 'Saira', sans-serif;
+    --font-baloo: 'Baloo', cursive;
+    --font-goudy: 'Goudy Bookletter 1911', serif;
+    --font-secular-one: 'Secular One', sans-serif;
+    --font-body: var(--font-goudy);
+    --font-header: var(--font-quicksand);
+
+    // Colors
+    --color-primary: #{$color-primary};
+    --color-neutral: #666;
+
+    font-family: var(--font-body, 'sans-serif');
+
+    @include interpolate(font-size, 320px, 1366px, 14px, 20px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-header, 'sans-serif');
+    color: var(--color-primary, $color-primary);
+}
