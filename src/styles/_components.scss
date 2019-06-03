@@ -3,6 +3,20 @@
     display: grid;
 }
 
+.c-list {
+    padding-left: 1em;
+    list-style: circle;
+
+    &__item {
+        margin-top: 0.25em;
+        color: var(--color-text);
+    }
+
+    &__item-text {
+        color: var(--color-text);
+    }
+}
+
 .c-title {
     font-weight: bold;
     font-size: 2em;
@@ -79,20 +93,6 @@
 
     &__role {
         font-weight: bold;
-    }
-
-    &__skills {
-        padding-left: 1em;
-        list-style: circle;
-    }
-
-    &__skill-item {
-        margin-top: 0.25em;
-        color: var(--color-text);
-    }
-
-    &__skill-text {
-        color: var(--color-text);
     }
 
     &:last-child::before {

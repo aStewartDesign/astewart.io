@@ -51,6 +51,7 @@ const postcssProcessors = [
 
 /** Build static site  */
 function build() {
+    const experienceStart = '2011-06-01';
     context.utils = {
         getExperienceTypeIcon: (type) => {
             const base = 'fas fa-';
@@ -81,6 +82,7 @@ function build() {
         },
         getDate: (date) => moment(date).format('MMMM YYYY')
     };
+    context.yearsExperience = moment().diff(moment(experienceStart), 'years');
     return gulp.src(path.resolve(paths.src, '*.njk'))
         .pipe(nunjucks.compile(context))
         .pipe(ext('.html'))

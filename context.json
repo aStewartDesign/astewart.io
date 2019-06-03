@@ -26,7 +26,7 @@
             "skills": [
                 "Print and web design",
                 "Attention to detail",
-                "Working with a client",
+                "Client relations",
                 "Adobe Creative Suite"
             ]
         },
@@ -36,10 +36,10 @@
             "role": "Freelance production artist",
             "startDate": "2011-09-01",
             "endDate": "2011-11-01",
-            "description": "Production work for super supplements...",
+            "description": "As a production artist, I would create graphics according to brand guidelines for different mediums. I balanced multiple projects simultaneously and met project deadlines efficiently.",
             "skills": [
                 "Adobe Creative Suite",
-                "Working with a client",
+                "Client relations",
                 "Attention to detail",
                 "Print and web design"
             ]
@@ -50,7 +50,7 @@
             "role": "Senior Designer",
             "startDate": "2011-11-01",
             "endDate": "2013-10-01",
-            "description": "Worked for amw...",
+            "description": "At Acupuncture Media Works I worked with a small team of people to provide acupuncture marketing materials for clinics around the world. I designed and built brochures, pamphlets, newsletters, web ads, WordPress templates, and web tools. Here I built design skills along with HTML, CSS, JavaScript, and PHP skills.",
             "skills": [
                 "UI/UX design",
                 "Wordpress",
@@ -69,7 +69,7 @@
             "role": "Web Designer",
             "startDate": "2013-11-01",
             "endDate": "2014-12-01",
-            "description": "Worked for PSP...",
+            "description": "Pacific Software Publishing provided me with full-time web design and development experience. I designed and built website and email templates alongside working on business to business web applications. I gained extensive experience building responsive experiences with HTML, CSS, and JavaScript and was introduced to version control using Subversion. In some cases I worked directly with customers, taking their feedback and creating solutions to fit their needs. In others I would work with teams on internal web application projects. I even gained some experience working on their CakePHP-based backend applications.",
             "skills": [
                 "UI/UX design",
                 "HTML/CSS",
@@ -77,7 +77,7 @@
                 "jQuery",
                 "PHP",
                 "CakePHP",
-                "Working with a client",
+                "Client relations",
                 "SVN"
             ]
         },
@@ -87,7 +87,7 @@
             "role": "Software Engineer & Designer",
             "startDate": "2015-01-01",
             "endDate": "2016-06-01",
-            "description": "Worked for Dash",
+            "description": "As a Software Engineer and Designer at Dash Platform, I lead the design and development of the user experience for a large SAAS application. I championed the adoption of a modular React and Redux-based front-end application that integrated with an API created in the legacy CakePHP backend application. Beyond the experience of building and working with these applications, I planed and executed usability testing of the software to inform improvements that could be made to the interface. My experience at Dash Platform gave me practice at every level from designing and building interfaces to building REST-ful APIs and storing data in a database.",
             "skills": [
                 "UI/UX design",
                 "Javascript",
@@ -110,7 +110,7 @@
             "role": "Software Engineer",
             "startDate": "2016-07-11",
             "endDate": "2018-06-29",
-            "description": "I worked for CHUB...",
+            "description": "My experience as a Software Engineer at CommerceHub provided me invaluable experience deconstructing a monolithic architecture into a micro-service architecture and setting up continuous integration/continuous deployment pipelines. I lead the effort to pull front-end code out of a monolithic repository into a separately deployed front-end application. The result was a successful standalone React/Redux application that could be deployed quickly and independently from the monolithic application. Separately, I lead efforts between cross-country offices to create and maintain a shared React component library and discussed efforts to create a company design system.",
             "skills": [
                 "React/Redux",
                 "LESS",
@@ -132,7 +132,7 @@
             "role": "Front-End Developer & Design Systems Architect",
             "startDate": "2018-07-02",
             "endDate": "2019-02-25",
-            "description": "Lead an effort to build a design system...",
+            "description": "I worked with Fellow on a public finance reporting application they built for the Washington State Auditor's Office (SAO). During the contract I assisted with the development of an Angular based application and lead the creation of a design system project to document and codify common design patterns and information. I helped Fellow research and pitch the design system to SAO and worked with their IT team to integrate the system into their existing build processes. Working with Fellow, I used the design system in the construction of the Angular based Finance Intelligence Tool.",
             "skills": [
                 "Design system architecture",
                 "HTML/CSS",
@@ -141,7 +141,7 @@
                 "Angular",
                 "API integration",
                 "Remote & in-office experience",
-                "Working with a client",
+                "Client relations",
                 "Fractal",
                 "TFS",
                 "NodeJS"

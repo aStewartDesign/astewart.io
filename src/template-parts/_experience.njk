@@ -15,9 +15,9 @@
         {% if experience.skills.length %}
         <h4>Skills practiced</h4>
         {% endif %}
-        <ul class="c-experience__skills">
+        <ul class="c-list">
         {% for skill in experience.skills %}
-            <li class="c-experience__skill-item"><span class="c-experience__skill-text">{{ skill }}</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">{{ skill }}</span></li>
         {% endfor %}
         </ul>
     </div>
