@@ -1,0 +1,36 @@
+.o-main-grid {
+    display: grid;
+    padding: 3em 2em; // exchange for margin || margin + padding + grid-spacing
+    // margins
+    // grid
+    // grid-spacing
+}
+
+
+@media (min-width: $breakpoint-1) {
+
+    .o-main-grid {
+        padding: 4em 2em;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2em;
+    }
+}
+
+@media (min-width: $breakpoint-2) {
+    .o-main-grid {
+        padding: 4em 4em;
+    }
+}
+
+@media (min-width: $breakpoint-3) {
+    .o-main-grid {
+        padding: 4em 6em;
+    }
+}
+
+@media (min-width: $breakpoint-4) {
+    .o-main-grid {
+        grid-column-gap: 4em;
+    }
+}
+

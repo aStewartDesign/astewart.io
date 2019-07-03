@@ -3,17 +3,17 @@
         <i class="{{ utils.getExperienceTypeIcon(experience.type) }}"></i>
     </span>
     <div class="c-experience__body">
-        <h3>
+        <h3 class="c-section__header">
             {% if experience.role %}<span class="c-experience__role">{{ experience.role }}</span> at {% endif %}{{ experience.name }}
         </h3>
-        <span>{{ utils.getDate(experience.startDate) }}{% if experience.endDate %} - {{ utils.getDate(experience.endDate) }}{% endif %}</span>
+        <span class="u-strong">{{ utils.getDate(experience.startDate) }}{% if experience.endDate %} - {{ utils.getDate(experience.endDate) }}{% endif %}</span>
         {% if experience.description%}
         <div>
             {{ experience.description }}
         </div>
         {% endif %}
         {% if experience.skills.length %}
-        <h4>Skills practiced</h4>
+        <h4 class="c-section__sub-header">Skills practiced</h4>
         {% endif %}
         <ul class="c-list">
         {% for skill in experience.skills %}

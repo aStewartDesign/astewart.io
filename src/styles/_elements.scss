@@ -25,6 +25,7 @@ body {
     font-family: var(--font-body, 'sans-serif');
     color: var(--color-text);
     background: var(--color-background);
+    line-height: 1.5;
 
     @include interpolate(font-size, 320px, 1366px, 14px, 20px);
 }

@@ -3,76 +3,82 @@
 
 {% block content %}
 
-<head>
-    <h1 class="c-title">
-        <a href="#">Andrew Stewart</a>
-        <span class="c-title__sub">Web Engineer &amp; Designer</span>
-    </h1>
-
-    <nav>
-        <ul class="c-nav">
-            <li class="c-nav__item"><a class="c-nav__link" href="#experience">Experience</a></li>
-            <li class="c-nav__item"><a class="c-nav__link" href="#skills">Skills</a></li>
-            <li class="c-nav__item"><a class="c-nav__link" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</head>
-
-<div class="c-about">
-    <p>With {{ yearsExperience }} years of web design and development experience, I am eger to work with and lead a team of designers and developers in building great user experiences. My experience up and down the stack will be helpful to any team looking for an agile, flexible, and passionate worker.</p>
-    <p>My experiences include:</p>
-    <ul class="c-list">
-        <li class="c-list__item"><span class="c-list__item-text">Designing and building web application UX/UI</span></li>
-        <li class="c-list__item"><span class="c-list__item-text">Deconstructing monolithic repositories into microservices</span></li>
-        <li class="c-list__item"><span class="c-list__item-text">Design system and shared component architecture</span></li>
-        <li class="c-list__item"><span class="c-list__item-text">Cloud services architecture</span></li>
-    </ul>
-    <p>If you are looking for an ambitious new teammate, <a href="#contact">hire me!</a></p>
-</div>
-
-<section class="c-section experience">
-    <h2 id="experience" class="c-section__title">Experience</h2>
-
-    <div class="c-experiences">
-    {% for experience in experiences | reverse %}
-        {% include "template-parts/_experience.njk" %}
-    {% endfor %}
+<header class="c-header">
+    <div class="o-main-grid">
+        <h1 class="c-header__title">
+            Hi, <span class="c-header__title-span">I'm Andrew.</span>
+        </h1>
+        <nav class="c-header__nav">
+            <ul class="c-nav">
+                <li class="c-nav__item"><a class="c-nav__link" href="#experience">Experience</a></li>
+                <li class="c-nav__item"><a class="c-nav__link" href="#skills">Skills</a></li>
+                <li class="c-nav__item"><a class="c-nav__link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="c-header__intro">
+            I am an outstanding web engineer and designer with {{ yearsExperience }} years of experience. Let's build something awesome together!
+        </p>
     </div>
-</section>
+</header>
 
-<section class="c-section skills">
-    <h2 id="skills" class="c-section__title">Skills</h2>
-    <h3>Technical</h3>
-    <ul>
-    {% for skillGroup in skills.technical %}
-        {% include "template-parts/_skill-group.njk" %}
-    {% endfor %}
-    </ul>
-    <h3>Design</h3>
-    <ul>
-    {% for skillGroup in skills.design %}
-        {% include "template-parts/_skill-group.njk" %}
-    {% endfor %}
-    </ul>
-    <h3>Soft</h3>
-    <ul>
-    {% for skillGroup in skills.soft %}
-        {% include "template-parts/_skill-group.njk" %}
-    {% endfor %}
-    </ul>
-</section>
+<div class="o-main-grid">
+    <div class="c-about c-section">
+        <p>I am eger to work with and lead a team of designers and developers in building great user experiences. My experience up and down the web stack will be useful to any team looking for an agile, flexible, and passionate worker.</p>
+        <p>My experiences include:</p>
+        <ul class="c-list">
+            <li class="c-list__item"><span class="c-list__item-text">Designing and building web application UX/UI</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Deconstructing monolithic repositories into microservices</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Design system and shared component architecture</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Cloud services architecture</span></li>
+        </ul>
+        <p>If you are looking for an ambitious new teammate, <a href="#contact">hire me!</a></p>
+    </div>
 
-<section class="c-section">
-    <h2 id="contact" class="c-section__title">Contact</h2>
-    <form>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" />
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-        <input type="submit" value="Send" />
-    </form>
-</section>
+    <section class="experience c-section">
+        <h2 id="experience" class="c-section__title">Experience</h2>
+
+        <div class="c-experiences">
+        {% for experience in experiences | reverse %}
+            {% include "template-parts/_experience.njk" %}
+        {% endfor %}
+        </div>
+    </section>
+
+    <section class="skills c-section">
+        <h2 id="skills" class="c-section__title">Skills</h2>
+        <h3 class="c-section__header">Technical</h3>
+        <ul>
+        {% for skillGroup in skills.technical %}
+            {% include "template-parts/_skill-group.njk" %}
+        {% endfor %}
+        </ul>
+        <h3 class="c-section__header">Design</h3>
+        <ul>
+        {% for skillGroup in skills.design %}
+            {% include "template-parts/_skill-group.njk" %}
+        {% endfor %}
+        </ul>
+        <h3 class="c-section__header">Soft</h3>
+        <ul>
+        {% for skillGroup in skills.soft %}
+            {% include "template-parts/_skill-group.njk" %}
+        {% endfor %}
+        </ul>
+    </section>
+
+    <section class="c-section contact">
+        <h2 id="contact" class="c-section__title">Contact</h2>
+        <p>All fields are required.</p>
+        <form class="c-form">
+            <label class="c-form__label" for="name">Name</label>
+            <input class="c-form__input" type="text" name="name" id="name" />
+            <label class="c-form__label" for="email">E-mail</label>
+            <input class="c-form__input" type="email" name="email" id="email" />
+            <label class="c-form__label" for="message">Message</label>
+            <textarea class="c-form__input" id="message" name="message"></textarea>
+            <input class="c-form__button" type="submit" value="Send" />
+        </form>
+    </section>
+</div>
 
 {% endblock %}
