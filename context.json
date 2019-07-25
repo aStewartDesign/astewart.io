@@ -14,7 +14,8 @@
                 "Book arts",
                 "Publication design",
                 "Technical writing"
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Puget Sound Energy",
@@ -28,7 +29,8 @@
                 "Attention to detail",
                 "Client relations",
                 "Adobe Creative Suite"
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Super Supplements",
@@ -42,7 +44,8 @@
                 "Client relations",
                 "Attention to detail",
                 "Print and web design"
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Acupuncture Media Works",
@@ -53,7 +56,7 @@
             "description": "At Acupuncture Media Works I worked with a small team of people to provide acupuncture marketing materials for clinics around the world. I designed and built brochures, pamphlets, newsletters, web ads, WordPress templates, and web tools. Here I built design skills along with HTML, CSS, JavaScript, and PHP skills.",
             "skills": [
                 "UI/UX design",
-                "Wordpress",
+                "WordPress",
                 "Web applications",
                 "Print and web design",
                 "HTML/CSS",
@@ -61,6 +64,13 @@
                 "PHP",
                 "jQuery",
                 "Project management"
+            ],
+            "links": [
+                {
+                    "text": "AcuPerfect Websites",
+                    "url": "https://acuperfectwebsites.com",
+                    "description": "I designed and built WordPress website templates for Acupuncture Media Works under the \"AcuPerfect Website\" brand. They still use the logo I designed for them."
+                }
             ]
         },
         {
@@ -79,6 +89,18 @@
                 "CakePHP",
                 "Client relations",
                 "SVN"
+            ],
+            "links": [
+                {
+                    "text": "Bloguru",
+                    "url": "https://www.bloguru.com",
+                    "description": "With a team at Pacific Software Publishing, I worked on designing and building the Bloguru web portal. On this project I gained experience working with localization and building responsive web applications."
+                },
+                {
+                    "text": "NewsMail",
+                    "url": "https://www.newsmail.com",
+                    "description": "I designed and built a number of NewsMail email templates. Each template needed to be tested in a number of email clients to ensure the design was consistent between them."
+                }
             ]
         },
         {
@@ -102,6 +124,13 @@
                 "Remote & in-office experience",
                 "Usability testing",
                 "Git"
+            ],
+            "links": [
+                {
+                    "text": "Dash Platform",
+                    "url": "https://www.dashplatform.com/",
+                    "description": "I worked on a number of UI and UX projects on Dash's SAAS product. This is their current marketing site which I had no hand in."
+                }
             ]
         },
         {
@@ -124,6 +153,13 @@
                 "Remote & in-office experience",
                 "Javascript",
                 "NodeJS"
+            ],
+            "links": [
+                {
+                    "text": "CommerceHub",
+                    "url": "https://www.commercehub.com/",
+                    "description": "I worked on creating reusable components and set up deployment pipelines for DemandStream, a CommerceHub SAAS product. This is their current marketing site which I had no hand in."
+                }
             ]
         },
         {
@@ -132,7 +168,7 @@
             "role": "Front-End Developer & Design Systems Architect",
             "startDate": "2018-07-02",
             "endDate": "2019-02-25",
-            "description": "I worked with Fellow on a public finance reporting application they built for the Washington State Auditor's Office (SAO). During the contract I assisted with the development of an Angular based application and lead the creation of a design system project to document and codify common design patterns and information. I helped Fellow research and pitch the design system to SAO and worked with their IT team to integrate the system into their existing build processes. Working with Fellow, I used the design system in the construction of the Angular based Finance Intelligence Tool.",
+            "description": "I worked with Fellow on a public finance reporting application they built for the Washington State Auditor's Office (SAO). During the contract I assisted with the development of the Angular based web application and lead the creation of a design system project to document and codify common design patterns and information. I helped Fellow research and pitch the design system to SAO and worked with their IT team to integrate the system into their existing build processes. Working with Fellow, I used the design system in the construction of the Financial Intelligence Tool (FIT).",
             "skills": [
                 "Design system architecture",
                 "HTML/CSS",
@@ -145,6 +181,18 @@
                 "Fractal",
                 "TFS",
                 "NodeJS"
+            ],
+            "links": [
+                {
+                    "text": "Financial Intelligence Tool",
+                    "url": "https://portal.sao.wa.gov/FIT/",
+                    "description": "I helped build this Angular application with a development team at Fellow and a creative team at DEI creative. I helped integrate the SAO design system into the application."
+                },
+                {
+                    "text": "SAO Design System",
+                    "url": "http://sao-patterns.s3-website-us-west-2.amazonaws.com/index.html",
+                    "description": "This is a demo of the design system documentation I assembled for the Washington State Auditor's office. This was eventually pulled into a private domain not available to the public and is currently maintained there."
+                }
             ]
         },
         {
@@ -154,7 +202,8 @@
             "startDate": "2019-03-18",
             "endDate": "",
             "description": "",
-            "skills": []
+            "skills": [],
+            "links": []
         }
     ],
     "skills": {
@@ -437,35 +486,35 @@
                     },
                     {
                         "name": "Engages in meetings",
-                        "level": 5
+                        "level": 4
                     }
                 ]
             },
             {
                 "name": "Leadership",
-                "level": 5,
+                "level": 4,
                 "subSkills": [
                     {
                         "name": "Takes initiative",
                         "level": 5
                     },
                     {
-                        "name": "Mentoring experience",
-                        "level": 5
+                        "name": "Mentoring",
+                        "level": 4
                     }
                 ]
             },
             {
                 "name": "Communication",
-                "level": 5,
+                "level": 4,
                 "subSkills": [
                     {
                         "name": "Excellent writing skills",
                         "level": 5
                     },
                     {
-                        "name": "Presenting experience",
-                        "level": 5
+                        "name": "Presenting",
+                        "level": 4
                     }
                 ]
             }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp start",
-    "deploy": "gulp build && aws s3 sync --recursive ./public/ s3://astewart.io"
+    "deploy": "gulp build && aws s3 sync ./public/ s3://astewart.io"
   },
   "repository": {
     "type": "git",

@@ -20,5 +20,12 @@
             <li class="c-list__item"><span class="c-list__item-text">{{ skill }}</span></li>
         {% endfor %}
         </ul>
+        {% if experience.links.length %}
+        <h4 class="c-section__sub-header">Links</h4>
+        {% endif %}
+        {% for link in experience.links %}
+            <h5 class="c-section__sub-sub-header"><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></h5>
+            <p class="u-margin-top--none">{{ link.description }}</p>
+        {% endfor %}
     </div>
 </div>

@@ -12,7 +12,9 @@
             <ul class="c-nav">
                 <li class="c-nav__item"><a class="c-nav__link" href="#experience">Experience</a></li>
                 <li class="c-nav__item"><a class="c-nav__link" href="#skills">Skills</a></li>
+                <!--
                 <li class="c-nav__item"><a class="c-nav__link" href="#contact">Contact</a></li>
+                -->
             </ul>
         </nav>
         <p class="c-header__intro">
@@ -23,7 +25,7 @@
 
 <div class="o-main-grid">
     <div class="c-about c-section">
-        <p>I am eger to work with and lead a team of designers and developers in building great user experiences. My experience up and down the web stack will be useful to any team looking for an agile, flexible, and passionate worker.</p>
+        <p>My experience up and down the web stack and my eye for design will be useful to any team looking for an agile, flexible, and passionate worker. With this background, I am eager to work with and lead a team of designers and developers in building great user experiences.</p>
         <p>My experiences include:</p>
         <ul class="c-list">
             <li class="c-list__item"><span class="c-list__item-text">Designing and building web application UX/UI</span></li>
@@ -31,7 +33,10 @@
             <li class="c-list__item"><span class="c-list__item-text">Design system and shared component architecture</span></li>
             <li class="c-list__item"><span class="c-list__item-text">Cloud services architecture</span></li>
         </ul>
+        <a href="/images/aStewartResume.pdf" class="c-button" target="_blank">Download my resume <i class="fas fa-download"></i></a>
+<!--
         <p>If you are looking for an ambitious new teammate, <a href="#contact">hire me!</a></p>
+-->
     </div>
 
     <section class="experience c-section">
@@ -65,11 +70,11 @@
         {% endfor %}
         </ul>
     </section>
-
+    <!--
     <section class="c-section contact">
         <h2 id="contact" class="c-section__title">Contact</h2>
         <p>All fields are required.</p>
-        <form class="c-form">
+        <form action="https://s3hfvj6ac5.execute-api.us-west-2.amazonaws.com/prod/astewartio-contact" method="POST" class="c-form">
             <label class="c-form__label" for="name">Name</label>
             <input class="c-form__input" type="text" name="name" id="name" />
             <label class="c-form__label" for="email">E-mail</label>
@@ -79,6 +84,7 @@
             <input class="c-form__button" type="submit" value="Send" />
         </form>
     </section>
+    -->
 </div>
 
 {% endblock %}

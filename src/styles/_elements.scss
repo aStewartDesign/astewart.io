@@ -41,10 +41,11 @@ h6 {
 }
 
 a {
-    color: var(--color-brand);
+    color: $color-accent-dark;
+    font-weight: 600;
 
     :hover,
     :focus {
-        color: var(--color-brand-2);
+        color: $color-accent-lighter;
     }
 }

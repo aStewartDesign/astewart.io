@@ -10,6 +10,16 @@
     color: var(--color-neutral) !important;
 }
 
-.u-strong {
-    font-weight: 600;
+.u-strong,
+.u-font-weight--strong {
+    font-weight: 600 !important;
 }
+
+.u-font-weight--normal {
+    font-weight: 400 !important;
+}
+
+.u-margin-top--none {
+    margin-top: 0 !important;
+}
+
