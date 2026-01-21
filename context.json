@@ -1,523 +1,526 @@
 {
-    "experiences": [
+  "experiences": [
+    {
+      "name": "Western Washington University",
+      "type": "education",
+      "role": "BA in design with an emphasis in design production",
+      "startDate": "2007-09-20",
+      "endDate": "2011-06-16",
+      "description": "",
+      "skills": [
+        "Typography",
+        "Web design",
+        "Advance design production",
+        "Book arts",
+        "Publication design",
+        "Technical writing"
+      ],
+      "links": []
+    },
+    {
+      "name": "Puget Sound Energy",
+      "type": "client",
+      "role": "Freelance graphic designer",
+      "startDate": "2011-08-01",
+      "endDate": "2014-06-01",
+      "description": "As an independent contractor for Puget Sound Energy I created and produced graphics for print and web mediums. I set my own schedule and would quickly turn around assignments as they were sent to me.",
+      "skills": [
+        "Print and web design",
+        "Attention to detail",
+        "Client relations",
+        "Adobe Creative Suite"
+      ],
+      "links": []
+    },
+    {
+      "name": "Super Supplements",
+      "type": "client",
+      "role": "Freelance production artist",
+      "startDate": "2011-09-01",
+      "endDate": "2011-11-01",
+      "description": "As a production artist, I would create graphics according to brand guidelines for different mediums. I balanced multiple projects simultaneously and met project deadlines efficiently.",
+      "skills": [
+        "Adobe Creative Suite",
+        "Client relations",
+        "Attention to detail",
+        "Print and web design"
+      ],
+      "links": []
+    },
+    {
+      "name": "Acupuncture Media Works",
+      "type": "job",
+      "role": "Senior Designer",
+      "startDate": "2011-11-01",
+      "endDate": "2013-10-01",
+      "description": "At Acupuncture Media Works I worked with a small team of people to provide acupuncture marketing materials for clinics around the world. I designed and built brochures, pamphlets, newsletters, web ads, WordPress templates, and web tools. Here I built design skills along with HTML, CSS, JavaScript, and PHP skills.",
+      "skills": [
+        "UI/UX design",
+        "WordPress",
+        "Web applications",
+        "Print and web design",
+        "HTML/CSS",
+        "Javascript",
+        "PHP",
+        "jQuery",
+        "Project management"
+      ],
+      "links": [
         {
-            "name": "Western Washington University",
-            "type": "education",
-            "role": "BA in design with an emphasis in design production",
-            "startDate": "2007-09-20",
-            "endDate": "2011-06-16",
-            "description": "",
-            "skills": [
-                "Typography",
-                "Web design",
-                "Advance design production",
-                "Book arts",
-                "Publication design",
-                "Technical writing"
-            ],
-            "links": []
-        },
-        {
-            "name": "Puget Sound Energy",
-            "type": "client",
-            "role": "Freelance graphic designer",
-            "startDate": "2011-08-01",
-            "endDate": "2014-06-01",
-            "description": "As an independent contractor for Puget Sound Energy I created and produced graphics for print and web mediums. I set my own schedule and would quickly turn around assignments as they were sent to me.",
-            "skills": [
-                "Print and web design",
-                "Attention to detail",
-                "Client relations",
-                "Adobe Creative Suite"
-            ],
-            "links": []
-        },
-        {
-            "name": "Super Supplements",
-            "type": "client",
-            "role": "Freelance production artist",
-            "startDate": "2011-09-01",
-            "endDate": "2011-11-01",
-            "description": "As a production artist, I would create graphics according to brand guidelines for different mediums. I balanced multiple projects simultaneously and met project deadlines efficiently.",
-            "skills": [
-                "Adobe Creative Suite",
-                "Client relations",
-                "Attention to detail",
-                "Print and web design"
-            ],
-            "links": []
-        },
-        {
-            "name": "Acupuncture Media Works",
-            "type": "job",
-            "role": "Senior Designer",
-            "startDate": "2011-11-01",
-            "endDate": "2013-10-01",
-            "description": "At Acupuncture Media Works I worked with a small team of people to provide acupuncture marketing materials for clinics around the world. I designed and built brochures, pamphlets, newsletters, web ads, WordPress templates, and web tools. Here I built design skills along with HTML, CSS, JavaScript, and PHP skills.",
-            "skills": [
-                "UI/UX design",
-                "WordPress",
-                "Web applications",
-                "Print and web design",
-                "HTML/CSS",
-                "Javascript",
-                "PHP",
-                "jQuery",
-                "Project management"
-            ],
-            "links": [
-                {
-                    "text": "AcuPerfect Websites",
-                    "url": "https://acuperfectwebsites.com",
-                    "description": "I designed and built WordPress website templates for Acupuncture Media Works under the \"AcuPerfect Website\" brand. They still use the logo I designed for them."
-                }
-            ]
-        },
-        {
-            "name": "Pacific Software Publishing",
-            "type": "job",
-            "role": "Web Designer",
-            "startDate": "2013-11-01",
-            "endDate": "2014-12-01",
-            "description": "Pacific Software Publishing provided me with full-time web design and development experience. I designed and built website and email templates alongside working on business to business web applications. I gained extensive experience building responsive experiences with HTML, CSS, and JavaScript and was introduced to version control using Subversion. In some cases I worked directly with customers, taking their feedback and creating solutions to fit their needs. In others I would work with teams on internal web application projects. I even gained some experience working on their CakePHP-based backend applications.",
-            "skills": [
-                "UI/UX design",
-                "HTML/CSS",
-                "Javascript",
-                "jQuery",
-                "PHP",
-                "CakePHP",
-                "Client relations",
-                "SVN"
-            ],
-            "links": [
-                {
-                    "text": "Bloguru",
-                    "url": "https://www.bloguru.com",
-                    "description": "With a team at Pacific Software Publishing, I worked on designing and building the Bloguru web portal. On this project I gained experience working with localization and building responsive web applications."
-                },
-                {
-                    "text": "NewsMail",
-                    "url": "https://www.newsmail.com",
-                    "description": "I designed and built a number of NewsMail email templates. Each template needed to be tested in a number of email clients to ensure the design was consistent between them."
-                }
-            ]
-        },
-        {
-            "name": "Dash Platform",
-            "type": "job",
-            "role": "Software Engineer & Designer",
-            "startDate": "2015-01-01",
-            "endDate": "2016-06-01",
-            "description": "As a Software Engineer and Designer at Dash Platform, I lead the design and development of the user experience for a large SAAS application. I championed the adoption of a modular React and Redux-based front-end application that integrated with an API created in the legacy CakePHP backend application. Beyond the experience of building and working with these applications, I planed and executed usability testing of the software to inform improvements that could be made to the interface. My experience at Dash Platform gave me practice at every level from designing and building interfaces to building REST-ful APIs and storing data in a database.",
-            "skills": [
-                "UI/UX design",
-                "Javascript",
-                "jQuery",
-                "React/Redux",
-                "HTML/CSS",
-                "SASS",
-                "API integration",
-                "PHP",
-                "MySQL",
-                "Working with a team",
-                "Remote & in-office experience",
-                "Usability testing",
-                "Git"
-            ],
-            "links": [
-                {
-                    "text": "Dash Platform",
-                    "url": "https://www.dashplatform.com/",
-                    "description": "I worked on a number of UI and UX projects on Dash's SAAS product. This is their current marketing site which I had no hand in."
-                }
-            ]
-        },
-        {
-            "name": "CommerceHub",
-            "type": "job",
-            "role": "Software Engineer",
-            "startDate": "2016-07-11",
-            "endDate": "2018-06-29",
-            "description": "My experience as a Software Engineer at CommerceHub provided me invaluable experience deconstructing a monolithic architecture into a micro-service architecture and setting up continuous integration/continuous deployment pipelines. I lead the effort to pull front-end code out of a monolithic repository into a separately deployed front-end application. The result was a successful standalone React/Redux application that could be deployed quickly and independently from the monolithic application. Separately, I lead efforts between cross-country offices to create and maintain a shared React component library and discussed efforts to create a company design system.",
-            "skills": [
-                "React/Redux",
-                "LESS",
-                "HTML/CSS",
-                "API integration",
-                "C#/.NET",
-                "AWS",
-                "GoCD",
-                "Working with a team",
-                "Git",
-                "Remote & in-office experience",
-                "Javascript",
-                "NodeJS"
-            ],
-            "links": [
-                {
-                    "text": "CommerceHub",
-                    "url": "https://www.commercehub.com/",
-                    "description": "I worked on creating reusable components and set up deployment pipelines for DemandStream, a CommerceHub SAAS product. This is their current marketing site which I had no hand in."
-                }
-            ]
-        },
-        {
-            "name": "Fellow",
-            "type": "client",
-            "role": "Front-End Developer & Design Systems Architect",
-            "startDate": "2018-07-02",
-            "endDate": "2019-02-25",
-            "description": "I worked with Fellow on a public finance reporting application they built for the Washington State Auditor's Office (SAO). During the contract I assisted with the development of the Angular based web application and lead the creation of a design system project to document and codify common design patterns and information. I helped Fellow research and pitch the design system to SAO and worked with their IT team to integrate the system into their existing build processes. Working with Fellow, I used the design system in the construction of the Financial Intelligence Tool (FIT).",
-            "skills": [
-                "Design system architecture",
-                "HTML/CSS",
-                "Javascript",
-                "SASS",
-                "Angular",
-                "API integration",
-                "Remote & in-office experience",
-                "Client relations",
-                "Fractal",
-                "TFS",
-                "NodeJS"
-            ],
-            "links": [
-                {
-                    "text": "Financial Intelligence Tool",
-                    "url": "https://portal.sao.wa.gov/FIT/",
-                    "description": "I helped build this Angular application with a development team at Fellow and a creative team at DEI creative. I helped integrate the SAO design system into the application."
-                },
-                {
-                    "text": "SAO Design System",
-                    "url": "http://sao-patterns.s3-website-us-west-2.amazonaws.com/index.html",
-                    "description": "This is a demo of the design system documentation I assembled for the Washington State Auditor's office. This was eventually pulled into a private domain not available to the public and is currently maintained there."
-                }
-            ]
-        },
-        {
-            "name": "AWS Cloud Solutions Architect",
-            "type": "certification",
-            "role": "",
-            "startDate": "2019-03-18",
-            "endDate": "",
-            "description": "",
-            "skills": [],
-            "links": []
+          "text": "AcuPerfect Websites",
+          "url": "https://acuperfectwebsites.com",
+          "description": "I designed and built WordPress website templates for Acupuncture Media Works under the \"AcuPerfect Website\" brand. They still use the logo I designed for them."
         }
-    ],
-    "skills": {
-        "technical": [
-            {
-                "name": "HTML",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "Semantic HTML",
-                        "level": 4
-                    },
-                    {
-                        "name": "Accessible HTML",
-                        "level": 3
-                    },
-                    {
-                        "name": "Nunjucks",
-                        "level": 3
-                    },
-                    {
-                        "name": "Handlebars",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "name": "CSS",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "SASS",
-                        "level": 4
-                    },
-                    {
-                        "name": "LESS",
-                        "level": 3
-                    },
-                    {
-                        "name": "PostCSS",
-                        "level": 4
-                    },
-                    {
-                        "name": "Architecture principles",
-                        "level": 4
-                    }
-                ]
-            },
-            {
-                "name": "Javascript",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "NodeJS",
-                        "level": 4
-                    },
-                    {
-                        "name": "ECMAScript",
-                        "level": 4
-                    },
-                    {
-                        "name": "Babel",
-                        "level": 4
-                    },
-                    {
-                        "name": "React/Redux",
-                        "level": 4
-                    },
-                    {
-                        "name": "Angular",
-                        "level": 2
-                    },
-                    {
-                        "name": "Webpack",
-                        "level": 3
-                    },
-                    {
-                        "name": "TypeScript",
-                        "level": 3
-                    },
-                    {
-                        "name": "Gulp",
-                        "level": 3
-                    },
-                    {
-                        "name": "jQuery",
-                        "level": 2
-                    },
-                    {
-                        "name": "Jest",
-                        "level": 2
-                    },
-                    {
-                        "name": "Tape",
-                        "level": 2
-                    },
-                    {
-                        "name": "Enzyme",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "name": "Amazon Web Services",
-                "level": 3,
-                "subSkills": [
-                    {
-                        "name": "S3",
-                        "level": 4
-                    },
-                    {
-                        "name": "CloudFront",
-                        "level": 4
-                    },
-                    {
-                        "name": "API Gateway",
-                        "level": 2
-                    },
-                    {
-                        "name": "Lambda",
-                        "level": 3
-                    },
-                    {
-                        "name": "AWS CLI",
-                        "level": 3
-                    },
-                    {
-                        "name": "Serverless Framework",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "name": "Back-End Engineering",
-                "level": 2,
-                "subSkills": [
-                    {
-                        "name": "C#/.NET",
-                        "level": 2
-                    },
-                    {
-                        "name": "PHP",
-                        "level": 2
-                    },
-                    {
-                        "name": "CakePHP",
-                        "level": 2
-                    },
-                    {
-                        "name": "SQL",
-                        "level": 2
-                    },
-                    {
-                        "name": "MySQL",
-                        "level": 2
-                    },
-                    {
-                        "name": "Microsoft SQL Server",
-                        "level": 2
-                    },
-                    {
-                        "name": "Wordpress",
-                        "level": 2
-                    }
-                ]
-            },
-            {
-                "name": "Version Control",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "Git",
-                        "level": 4
-                    },
-                    {
-                        "name": "SVN",
-                        "level": 1
-                    },
-                    {
-                        "name": "TFS",
-                        "level": 2
-                    }
-                ]
-            }
-        ],
-        "design": [
-            {
-                "name": "Web UI/UX Design",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "Responsive, Mobile-First Design",
-                        "level": 4
-                    },
-                    {
-                        "name": "Web Typography",
-                        "level": 3
-                    },
-                    {
-                        "name": "Atomic Design",
-                        "level": 4
-                    },
-                    {
-                        "name": "Usability Testing",
-                        "level": 3
-                    }
-                ]
-            },
-            {
-                "name": "Design Systems",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "System Architecture",
-                        "level": 4
-                    },
-                    {
-                        "name": "Fractal",
-                        "level": 4
-                    },
-                    {
-                        "name": "Pattern Lab",
-                        "level": 3
-                    },
-                    {
-                        "name": "System Maintenance",
-                        "level": 3
-                    }
-                ]
-            },
-            {
-                "name": "Adobe Creative Cloud",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "Illustrator",
-                        "level": 4
-                    },
-                    {
-                        "name": "Photoshop",
-                        "level": 4
-                    },
-                    {
-                        "name": "InDesign",
-                        "level": 3
-                    },
-                    {
-                        "name": "XD",
-                        "level": 3
-                    },
-                    {
-                        "name": "AfterEffects",
-                        "level": 3
-                    }
-                ]
-            }
-        ],
-        "soft": [
-            {
-                "name": "Adaptable",
-                "level": 5,
-                "subSkills": [
-                    {
-                        "name": "Can fill many roles",
-                        "level": 5
-                    },
-                    {
-                        "name": "Can work independently and with a team",
-                        "level": 5
-                    }
-                ]
-            },
-            {
-                "name": "Teamwork",
-                "level": 5,
-                "subSkills": [
-                    {
-                        "name": "Works effectively with others",
-                        "level": 5
-                    },
-                    {
-                        "name": "Engages in meetings",
-                        "level": 4
-                    }
-                ]
-            },
-            {
-                "name": "Leadership",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "Takes initiative",
-                        "level": 5
-                    },
-                    {
-                        "name": "Mentoring",
-                        "level": 4
-                    }
-                ]
-            },
-            {
-                "name": "Communication",
-                "level": 4,
-                "subSkills": [
-                    {
-                        "name": "Excellent writing skills",
-                        "level": 5
-                    },
-                    {
-                        "name": "Presenting",
-                        "level": 4
-                    }
-                ]
-            }
-        ]
+      ]
+    },
+    {
+      "name": "Pacific Software Publishing",
+      "type": "job",
+      "role": "Web Designer",
+      "startDate": "2013-11-01",
+      "endDate": "2014-12-01",
+      "description": "Pacific Software Publishing provided me with full-time web design and development experience. I designed and built website and email templates alongside working on business to business web applications. I gained extensive experience building responsive experiences with HTML, CSS, and JavaScript and was introduced to version control using Subversion. In some cases I worked directly with customers, taking their feedback and creating solutions to fit their needs. In others I would work with teams on internal web application projects. I even gained some experience working on their CakePHP-based backend applications.",
+      "skills": [
+        "UI/UX design",
+        "HTML/CSS",
+        "Javascript",
+        "jQuery",
+        "PHP",
+        "CakePHP",
+        "Client relations",
+        "SVN"
+      ],
+      "links": [
+        {
+          "text": "Bloguru",
+          "url": "https://www.bloguru.com",
+          "description": "With a team at Pacific Software Publishing, I worked on designing and building the Bloguru web portal. On this project I gained experience working with localization and building responsive web applications."
+        },
+        {
+          "text": "NewsMail",
+          "url": "https://www.newsmail.com",
+          "description": "I designed and built a number of NewsMail email templates. Each template needed to be tested in a number of email clients to ensure the design was consistent between them."
+        }
+      ]
+    },
+    {
+      "name": "Dash Platform",
+      "type": "job",
+      "role": "Software Engineer & Designer",
+      "startDate": "2015-01-01",
+      "endDate": "2016-06-01",
+      "description": "As a Software Engineer and Designer at Dash Platform, I lead the design and development of the user experience for a large SAAS application. I championed the adoption of a modular React and Redux-based front-end application that integrated with an API created in the legacy CakePHP backend application. Beyond the experience of building and working with these applications, I planed and executed usability testing of the software to inform improvements that could be made to the interface. My experience at Dash Platform gave me practice at every level from designing and building interfaces to building REST-ful APIs and storing data in a database.",
+      "skills": [
+        "UI/UX design",
+        "Javascript",
+        "jQuery",
+        "React/Redux",
+        "HTML/CSS",
+        "SASS",
+        "API integration",
+        "PHP",
+        "MySQL",
+        "Working with a team",
+        "Remote & in-office experience",
+        "Usability testing",
+        "Git"
+      ],
+      "links": [
+        {
+          "text": "Dash Platform",
+          "url": "https://www.dashplatform.com/",
+          "description": "I worked on a number of UI and UX projects on Dash's SAAS product. This is their current marketing site which I had no hand in."
+        }
+      ]
+    },
+    {
+      "name": "CommerceHub",
+      "type": "job",
+      "role": "Software Engineer",
+      "startDate": "2016-07-11",
+      "endDate": "2018-06-29",
+      "description": "My experience as a Software Engineer at CommerceHub provided me invaluable experience deconstructing a monolithic architecture into a micro-service architecture and setting up continuous integration/continuous deployment pipelines. I lead the effort to pull front-end code out of a monolithic repository into a separately deployed front-end application. The result was a successful standalone React/Redux application that could be deployed quickly and independently from the monolithic application. Separately, I lead efforts between cross-country offices to create and maintain a shared React component library and discussed efforts to create a company design system.",
+      "skills": [
+        "React/Redux",
+        "LESS",
+        "HTML/CSS",
+        "API integration",
+        "C#/.NET",
+        "AWS",
+        "GoCD",
+        "Working with a team",
+        "Git",
+        "Remote & in-office experience",
+        "Javascript",
+        "NodeJS"
+      ],
+      "links": [
+        {
+          "text": "CommerceHub",
+          "url": "https://www.commercehub.com/",
+          "description": "I worked on creating reusable components and set up deployment pipelines for DemandStream, a CommerceHub SAAS product. This is their current marketing site which I had no hand in."
+        }
+      ]
+    },
+    {
+      "name": "Fellow",
+      "type": "client",
+      "role": "Front-End Developer & Design Systems Architect",
+      "startDate": "2018-07-02",
+      "endDate": "2019-02-25",
+      "description": "I worked with Fellow on a public finance reporting application they built for the Washington State Auditor's Office (SAO). During the contract I assisted with the development of the Angular based web application and lead the creation of a design system project to document and codify common design patterns and information. I helped Fellow research and pitch the design system to SAO and worked with their IT team to integrate the system into their existing build processes. Working with Fellow, I used the design system in the construction of the Financial Intelligence Tool (FIT).",
+      "skills": [
+        "Design system architecture",
+        "HTML/CSS",
+        "Javascript",
+        "SASS",
+        "Angular",
+        "API integration",
+        "Remote & in-office experience",
+        "Client relations",
+        "Fractal",
+        "TFS",
+        "NodeJS"
+      ],
+      "links": [
+        {
+          "text": "Financial Intelligence Tool",
+          "url": "https://portal.sao.wa.gov/FIT/",
+          "description": "I helped build this Angular application with a development team at Fellow and a creative team at DEI creative. I helped integrate the SAO design system into the application."
+        }
+      ]
+    },
+    {
+      "name": "AWS Cloud Solutions Architect",
+      "type": "certification",
+      "role": "",
+      "startDate": "2019-03-18",
+      "endDate": "",
+      "description": "",
+      "skills": [],
+      "links": []
     }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "name": "HTML",
+        "level": 5,
+        "subSkills": [
+          {
+            "name": "Semantic HTML",
+            "level": 5
+          },
+          {
+            "name": "Accessible HTML",
+            "level": 3
+          },
+          {
+            "name": "Nunjucks",
+            "level": 3
+          },
+          {
+            "name": "Handlebars",
+            "level": 4
+          }
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": 5,
+        "subSkills": [
+          {
+            "name": "SASS",
+            "level": 4
+          },
+          {
+            "name": "LESS",
+            "level": 3
+          },
+          {
+            "name": "PostCSS",
+            "level": 4
+          },
+          {
+            "name": "Architecture principles",
+            "level": 4
+          }
+        ]
+      },
+      {
+        "name": "Javascript",
+        "level": 5,
+        "subSkills": [
+          {
+            "name": "NodeJS",
+            "level": 5
+          },
+          {
+            "name": "ECMAScript",
+            "level": 5
+          },
+          {
+            "name": "Babel",
+            "level": 4
+          },
+          {
+            "name": "React/Redux",
+            "level": 4
+          },
+          {
+            "name": "Svelte",
+            "level": 4
+          },
+          {
+            "name": "Ember",
+            "level": 4
+          },
+          {
+            "name": "Angular",
+            "level": 2
+          },
+          {
+            "name": "Webpack",
+            "level": 3
+          },
+          {
+            "name": "TypeScript",
+            "level": 5
+          },
+          {
+            "name": "Gulp",
+            "level": 3
+          },
+          {
+            "name": "jQuery",
+            "level": 2
+          },
+          {
+            "name": "Jest",
+            "level": 2
+          },
+          {
+            "name": "Tape",
+            "level": 2
+          },
+          {
+            "name": "Enzyme",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "name": "Amazon Web Services",
+        "level": 3,
+        "subSkills": [
+          {
+            "name": "S3",
+            "level": 4
+          },
+          {
+            "name": "CloudFront",
+            "level": 4
+          },
+          {
+            "name": "API Gateway",
+            "level": 2
+          },
+          {
+            "name": "Lambda",
+            "level": 3
+          },
+          {
+            "name": "AWS CLI",
+            "level": 3
+          },
+          {
+            "name": "Serverless Framework",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "name": "Back-End Engineering",
+        "level": 2,
+        "subSkills": [
+          {
+            "name": "C#/.NET",
+            "level": 2
+          },
+          {
+            "name": "PHP",
+            "level": 2
+          },
+          {
+            "name": "CakePHP",
+            "level": 2
+          },
+          {
+            "name": "SQL",
+            "level": 2
+          },
+          {
+            "name": "MySQL",
+            "level": 2
+          },
+          {
+            "name": "Microsoft SQL Server",
+            "level": 2
+          },
+          {
+            "name": "Wordpress",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "name": "Version Control",
+        "level": 5,
+        "subSkills": [
+          {
+            "name": "Git",
+            "level": 5
+          },
+          {
+            "name": "SVN",
+            "level": 1
+          },
+          {
+            "name": "TFS",
+            "level": 2
+          }
+        ]
+      }
+    ],
+    "design": [
+      {
+        "name": "Web UI/UX Design",
+        "level": 4,
+        "subSkills": [
+          {
+            "name": "Responsive, Mobile-First Design",
+            "level": 4
+          },
+          {
+            "name": "Web Typography",
+            "level": 3
+          },
+          {
+            "name": "Atomic Design",
+            "level": 4
+          },
+          {
+            "name": "Usability Testing",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "name": "Design Systems",
+        "level": 4,
+        "subSkills": [
+          {
+            "name": "System Architecture",
+            "level": 4
+          },
+          {
+            "name": "Fractal",
+            "level": 4
+          },
+          {
+            "name": "Pattern Lab",
+            "level": 3
+          },
+          {
+            "name": "System Maintenance",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "name": "Adobe Creative Cloud",
+        "level": 4,
+        "subSkills": [
+          {
+            "name": "Illustrator",
+            "level": 4
+          },
+          {
+            "name": "Photoshop",
+            "level": 4
+          },
+          {
+            "name": "InDesign",
+            "level": 3
+          },
+          {
+            "name": "XD",
+            "level": 3
+          },
+          {
+            "name": "AfterEffects",
+            "level": 3
+          }
+        ]
+      }
+    ],
+    "soft": [
+      {
+        "name": "Adaptable",
+        "level": 5,
+        "subSkills": [
+          {
+            "name": "Can fill many roles",
+            "level": 5
+          },
+          {
+            "name": "Can work independently and with a team",
+            "level": 5
+          }
+        ]
+      },
+      {
+        "name": "Teamwork",
+        "level": 5,
+        "subSkills": [
+          {
+            "name": "Works effectively with others",
+            "level": 5
+          },
+          {
+            "name": "Engages in meetings",
+            "level": 4
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "level": 4,
+        "subSkills": [
+          {
+            "name": "Takes initiative",
+            "level": 5
+          },
+          {
+            "name": "Mentoring",
+            "level": 4
+          }
+        ]
+      },
+      {
+        "name": "Communication",
+        "level": 4,
+        "subSkills": [
+          {
+            "name": "Excellent writing skills",
+            "level": 5
+          },
+          {
+            "name": "Presenting",
+            "level": 4
+          }
+        ]
+      }
+    ]
+  }
 }

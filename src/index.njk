@@ -18,7 +18,7 @@
             </ul>
         </nav>
         <p class="c-header__intro">
-            I am an outstanding web engineer and designer with {{ yearsExperience }} years of experience. Let's build something awesome together!
+            I am an outstanding web engineer and designer with <span id="experience">{{ yearsExperience }}</span> years of experience. Let's build something awesome together!
         </p>
     </div>
 </header>
@@ -86,5 +86,20 @@
     </section>
     -->
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const experienceElement = document.getElementById('experience');
+        if (experienceElement) {
+            // Calculate years of experience from June 2011 to current date to
+            // keep it dynamic and up-to-date
+            const experienceStartDate = new Date('2011-06-01T00:00:00');
+            const currentDate = new Date();
+            const years =
+                currentDate.getFullYear() - experienceStartDate.getFullYear();
+            experienceElement.textContent = years;
+        }
+    });
+</script>
 
 {% endblock %}

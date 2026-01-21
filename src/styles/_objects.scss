@@ -1,3 +1,5 @@
+@use "./_settings" as *;
+
 .o-main-grid {
     display: grid;
     padding: 3em 2em; // exchange for margin || margin + padding + grid-spacing

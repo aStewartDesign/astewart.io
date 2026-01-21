@@ -2,11 +2,8 @@
  MAIN STYLE SHEET
  */
 
-
-@import "./_settings";
-@import "./_tools";
-@import "./_generic";
-@import "./_elements";
-@import "./_objects";
-@import "./_components";
-@import "./_utilities";
+@use "./_generic";
+@use "./_elements";
+@use "./_objects";
+@use "./_components";
+@use "./_utilities";

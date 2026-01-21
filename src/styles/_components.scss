@@ -1,3 +1,6 @@
+@use "./_settings" as *;
+@use "./_tools" as *;
+
 .c-list {
     padding-left: 1em;
     list-style: circle;
