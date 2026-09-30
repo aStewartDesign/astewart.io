@@ -63,3 +63,6 @@ typings/
 # build directories
 public/
 www/
+
+# macos
+.DS_Store
