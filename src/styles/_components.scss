@@ -81,6 +81,7 @@
 
 
 .c-section {
+    grid-column: 1 / -1;
 
     &__title {
         font-size: 1.75em;
@@ -239,16 +240,17 @@
         grid-column: 1 / 6;
     }
 
+    .c-section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
     .c-nav {
         justify-content: flex-end;
 
         &__link {
             margin-left: 1.5em;
         }
-    }
-
-    .c-section {
-        grid-column: 2 / -1;
     }
 /*
     .c-about {
@@ -263,6 +265,14 @@
         grid-column: 2 / -1;
     }
 */
+}
+
+@media (min-width: $breakpoint-2) {
+
+    .c-section {
+        grid-column: 2 / -1;
+        padding: 0;
+    }
 }
 
 .c-button {

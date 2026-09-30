@@ -13,7 +13,7 @@
 
     .o-main-grid {
         padding: 4em 2em;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
         grid-column-gap: 2em;
     }
 }
