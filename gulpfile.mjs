@@ -7,7 +7,7 @@ import path from "node:path";
 import fs from "fs";
 import { deleteAsync as del } from "del";
 import gulp from "gulp";
-import { nunjucksCompile} from "gulp-nunjucks";
+import { nunjucksCompile } from "gulp-nunjucks";
 import ext from "gulp-ext-replace";
 import BrowserSync from "browser-sync";
 const browserSync = BrowserSync.create();
@@ -65,6 +65,24 @@ function build() {
           return `${base}hard-hat`;
       }
     },
+    getExperienceLabel: (type) => {
+      switch (type) {
+        case "education":
+          return "Education";
+
+        case "client":
+          return "Contract Work";
+
+        case "job":
+          return "Full-Time Job";
+
+        case "certification":
+          return "Certification";
+
+        default:
+          return "Other";
+      }
+    },
     getLevelIcon: (level, skillLevel) => {
       if (level > skillLevel) {
         return "far fa-circle u-color-neutral";
@@ -105,7 +123,7 @@ function serve(done) {
         path.resolve(paths.src, "**/*.scss"),
         path.resolve(paths.src, "**/*.njk"),
       ],
-      gulp.parallel(build, styles)
+      gulp.parallel(build, styles),
     )
     .on("change", browserSync.reload)
     .on("ready", done);
@@ -134,10 +152,10 @@ function styles() {
 /** Copy image assets */
 function images() {
   return gulp
-    .src(path.resolve(paths.src, "images/**/*"), { 
+    .src(path.resolve(paths.src, "images/**/*"), {
       encoding: false,
     })
-    .pipe(gulp.dest(path.join(paths.dest, 'images')));
+    .pipe(gulp.dest(path.join(paths.dest, "images")));
 }
 
 /**

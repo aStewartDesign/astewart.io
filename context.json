@@ -79,7 +79,7 @@
       "role": "Web Designer",
       "startDate": "2013-11-01",
       "endDate": "2014-12-01",
-      "description": "Pacific Software Publishing provided me with full-time web design and development experience. I designed and built website and email templates alongside working on business to business web applications. I gained extensive experience building responsive experiences with HTML, CSS, and JavaScript and was introduced to version control using Subversion. In some cases I worked directly with customers, taking their feedback and creating solutions to fit their needs. In others I would work with teams on internal web application projects. I even gained some experience working on their CakePHP-based backend applications.",
+      "description": "At Pacific Software Publishing I designed and built website and email templates alongside working on business to business web applications. I gained experience building responsive web sites using HTML, CSS, and JavaScript.",
       "skills": [
         "UI/UX design",
         "HTML/CSS",
@@ -125,13 +125,7 @@
         "Usability testing",
         "Git"
       ],
-      "links": [
-        {
-          "text": "Dash Platform",
-          "url": "https://www.dashplatform.com/",
-          "description": "I worked on a number of UI and UX projects on Dash's SAAS product. This is their current marketing site which I had no hand in."
-        }
-      ]
+      "links": []
     },
     {
       "name": "CommerceHub",
@@ -139,7 +133,7 @@
       "role": "Software Engineer",
       "startDate": "2016-07-11",
       "endDate": "2018-06-29",
-      "description": "My experience as a Software Engineer at CommerceHub provided me invaluable experience deconstructing a monolithic architecture into a micro-service architecture and setting up continuous integration/continuous deployment pipelines. I lead the effort to pull front-end code out of a monolithic repository into a separately deployed front-end application. The result was a successful standalone React/Redux application that could be deployed quickly and independently from the monolithic application. Separately, I lead efforts between cross-country offices to create and maintain a shared React component library and discussed efforts to create a company design system.",
+      "description": "At CommerceHub I led the effort to pull front-end code out of a monolithic repository into a separately deployed front-end application which could be deployed quickly and independently from the monolithic application. Separately, I led efforts to create and maintain a shared React component library and collaborated with a team on the creation of a company design system.",
       "skills": [
         "React/Redux",
         "LESS",
@@ -154,13 +148,7 @@
         "Javascript",
         "NodeJS"
       ],
-      "links": [
-        {
-          "text": "CommerceHub",
-          "url": "https://www.commercehub.com/",
-          "description": "I worked on creating reusable components and set up deployment pipelines for DemandStream, a CommerceHub SAAS product. This is their current marketing site which I had no hand in."
-        }
-      ]
+      "links": []
     },
     {
       "name": "Fellow",
@@ -168,7 +156,7 @@
       "role": "Front-End Developer & Design Systems Architect",
       "startDate": "2018-07-02",
       "endDate": "2019-02-25",
-      "description": "I worked with Fellow on a public finance reporting application they built for the Washington State Auditor's Office (SAO). During the contract I assisted with the development of the Angular based web application and lead the creation of a design system project to document and codify common design patterns and information. I helped Fellow research and pitch the design system to SAO and worked with their IT team to integrate the system into their existing build processes. Working with Fellow, I used the design system in the construction of the Financial Intelligence Tool (FIT).",
+      "description": "During a contract with Fellow, I assisted with the development of an Angular based web application and led the creation of a design system project to document and codify common design patterns and information. I worked with Fellow and their client, the Washington State Auditors Office, to integrate the design system into their existing build processes.",
       "skills": [
         "Design system architecture",
         "HTML/CSS",
@@ -195,9 +183,29 @@
       "type": "certification",
       "role": "",
       "startDate": "2019-03-18",
-      "endDate": "",
+      "endDate": "2021-03-18",
       "description": "",
       "skills": [],
+      "links": []
+    },
+    {
+      "name": "Rowan (acquired by Clarivate, July 2024)",
+      "type": "job",
+      "role": "Senior Software Engineer",
+      "startDate": "2019-09-18",
+      "description": "I worked with a team to develop and maintain an Electron-based desktop application used by legal firms and corporate legal departments for efficiently drafting patent applications. My efforts focused on creating a comprehensive UI component library, developing integrations with third party chemical drawing software, and building AI-powered features which helped the company secure key contracts and achieve acquisition by Clarivate.",
+      "skills": [
+        "HTML/CSS",
+        "Javascript/TypeScript",
+        "Ember",
+        "AI integration",
+        "Remote & in-office experience",
+        "Git",
+        "NodeJS",
+        "Electron",
+        "AWS",
+        "C#/.NET"
+      ],
       "links": []
     }
   ],
@@ -292,10 +300,6 @@
             "level": 3
           },
           {
-            "name": "jQuery",
-            "level": 2
-          },
-          {
             "name": "Jest",
             "level": 2
           },
@@ -311,7 +315,7 @@
       },
       {
         "name": "Amazon Web Services",
-        "level": 3,
+        "level": 4,
         "subSkills": [
           {
             "name": "S3",
@@ -341,23 +345,19 @@
       },
       {
         "name": "Back-End Engineering",
-        "level": 2,
+        "level": 3,
         "subSkills": [
           {
             "name": "C#/.NET",
-            "level": 2
+            "level": 3
           },
           {
             "name": "PHP",
             "level": 2
           },
           {
-            "name": "CakePHP",
-            "level": 2
-          },
-          {
             "name": "SQL",
-            "level": 2
+            "level": 3
           },
           {
             "name": "MySQL",
@@ -395,11 +395,11 @@
     "design": [
       {
         "name": "Web UI/UX Design",
-        "level": 4,
+        "level": 5,
         "subSkills": [
           {
             "name": "Responsive, Mobile-First Design",
-            "level": 4
+            "level": 5
           },
           {
             "name": "Web Typography",
@@ -411,7 +411,7 @@
           },
           {
             "name": "Usability Testing",
-            "level": 3
+            "level": 4
           }
         ]
       },
@@ -422,14 +422,6 @@
           {
             "name": "System Architecture",
             "level": 4
-          },
-          {
-            "name": "Fractal",
-            "level": 4
-          },
-          {
-            "name": "Pattern Lab",
-            "level": 3
           },
           {
             "name": "System Maintenance",

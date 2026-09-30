@@ -6,7 +6,10 @@
         <h3 class="c-section__header">
             {% if experience.role %}<span class="c-experience__role">{{ experience.role }}</span> at {% endif %}{{ experience.name }}
         </h3>
-        <span class="u-strong">{{ utils.getDate(experience.startDate) }}{% if experience.endDate %} - {{ utils.getDate(experience.endDate) }}{% endif %}</span>
+        <p>
+            <span class="u-italic">{{ utils.getExperienceLabel(experience.type) }}</span> |
+            <span class="u-strong">{{ utils.getDate(experience.startDate) }}{% if experience.endDate %} - {{ utils.getDate(experience.endDate) }}{% else %} - Present{% endif %}</span>
+        </p>
         {% if experience.description%}
         <div>
             {{ experience.description }}

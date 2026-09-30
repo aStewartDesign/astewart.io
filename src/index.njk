@@ -8,35 +8,23 @@
         <h1 class="c-header__title">
             Hi, <span class="c-header__title-span">I'm Andrew.</span>
         </h1>
-        <nav class="c-header__nav">
-            <ul class="c-nav">
-                <li class="c-nav__item"><a class="c-nav__link" href="#experience">Experience</a></li>
-                <li class="c-nav__item"><a class="c-nav__link" href="#skills">Skills</a></li>
-                <!--
-                <li class="c-nav__item"><a class="c-nav__link" href="#contact">Contact</a></li>
-                -->
-            </ul>
-        </nav>
         <p class="c-header__intro">
-            I am an outstanding web engineer and designer with <span id="experience">{{ yearsExperience }}</span> years of experience. Let's build something awesome together!
+            I'm a senior software engineer with <span id="experience">{{ yearsExperience }}</span> years of experience building intuitive products from the UI to the API.
         </p>
     </div>
 </header>
 
 <div class="o-main-grid">
     <div class="c-about c-section">
-        <p>My experience up and down the web stack and my eye for design will be useful to any team looking for an agile, flexible, and passionate worker. With this background, I am eager to work with and lead a team of designers and developers in building great user experiences.</p>
+        <p>With my software engineering experience and design background, I transform loose design requirements into well-rounded features that deliver value to the user and scale efficiently. My experience from small startup to corporate acquisition has provided me with a broad skill set from building backend API endpoints and integrating with third party applications to maintaining a component library and creating intuitive user interfaces.</p>
         <p>My experiences include:</p>
         <ul class="c-list">
-            <li class="c-list__item"><span class="c-list__item-text">Designing and building web application UX/UI</span></li>
-            <li class="c-list__item"><span class="c-list__item-text">Deconstructing monolithic repositories into microservices</span></li>
-            <li class="c-list__item"><span class="c-list__item-text">Design system and shared component architecture</span></li>
-            <li class="c-list__item"><span class="c-list__item-text">Cloud services architecture</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Developing AI-powered features using LLM integrations and custom ML models</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Modernizing infrastructure through cloud migrations and service integrations</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Building applications across the stack, from database design to responsive frontends</span></li>
+            <li class="c-list__item"><span class="c-list__item-text">Architecting design systems and component libraries for enterprise applications</span></li>
         </ul>
         <a href="/images/aStewartResume.pdf" class="c-button" target="_blank">Download my resume <i class="fas fa-download"></i></a>
-<!--
-        <p>If you are looking for an ambitious new teammate, <a href="#contact">hire me!</a></p>
--->
     </div>
 
     <section class="experience c-section">
@@ -70,21 +58,6 @@
         {% endfor %}
         </ul>
     </section>
-    <!--
-    <section class="c-section contact">
-        <h2 id="contact" class="c-section__title">Contact</h2>
-        <p>All fields are required.</p>
-        <form action="https://s3hfvj6ac5.execute-api.us-west-2.amazonaws.com/prod/astewartio-contact" method="POST" class="c-form">
-            <label class="c-form__label" for="name">Name</label>
-            <input class="c-form__input" type="text" name="name" id="name" />
-            <label class="c-form__label" for="email">E-mail</label>
-            <input class="c-form__input" type="email" name="email" id="email" />
-            <label class="c-form__label" for="message">Message</label>
-            <textarea class="c-form__input" id="message" name="message"></textarea>
-            <input class="c-form__button" type="submit" value="Send" />
-        </form>
-    </section>
-    -->
 </div>
 
 <script>
